@@ -4,11 +4,11 @@ Bu depoda, endüstriyel üretim hatlarındaki kestirimci bakım (predictive main
 
 🛠️ Kullanılan Teknolojiler
 
-Python 3
+* Python 3
 
-Scikit-Learn & Imbalanced-Learn (SMOTE) (Modelleme, Veri Dengeleme ve Metrikler)
+* Scikit-Learn & Imbalanced-Learn (SMOTE) (Modelleme, Veri Dengeleme ve Metrikler)
 
-Matplotlib & Seaborn (Görselleştirme)
+* Matplotlib & Seaborn (Görselleştirme)
 
 🔬 Neden 3 Farklı Yol Denedik? (Mühendislik Yaklaşımı)
 
