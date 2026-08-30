@@ -25,11 +25,11 @@ Kestirimci bakım veri setlerinde en büyük problem dengesiz veri (imbalanced d
 1. Temel SVC Modeli (Baseline)
 Standart parametrelerle kurulan temel model, çoğunluk sınıfının baskınlığı nedeniyle azınlık sınıfındaki gerçek arızaları yakalamakta zorlanmıştır.
 
-Confusion Matrix ve Classification Report:
+*Confusion Matrix ve Classification Report*:
 
 ![Confusion Matrix ve Classification Report](SVCRESULTS.png)
 
-ROC Eğrisi ve AUC: Model 0.9217 AUC skoruna ulaşmıştır.
+*ROC Eğrisi ve AUC*: Model 0.9217 AUC skoruna ulaşmıştır.
 
 ![ROC Curve ve AUC Skoru](SVCROCCURVE.png)
 
@@ -37,11 +37,11 @@ ROC Eğrisi ve AUC: Model 0.9217 AUC skoruna ulaşmıştır.
 2. Sınıf Ağırlıklı SVC Modeli (Class Weight Optimization)
 Sınıf ağırlıkları optimize edilerek yanlış alarmlar (False Positive) minimumda tutulmaya çalışılmış, bakım ekibinin iş yükü dengelenmiştir.
 
-Confusion Matrix ve Classification Report:
+*Confusion Matrix ve Classification Report*:
 
 ![Confusion Matrix ve Classification Report](SVCwithClassWeightResults.png)
 
-ROC Eğrisi ve AUC: Model 0.9153 AUC skoru elde etmiştir.
+*ROC Eğrisi ve AUC*: Model 0.9153 AUC skoru elde etmiştir.
 
 ![ROC Curve ve AUC Skoru](SVCwithClassWeightROCCurve.png)
 
@@ -49,20 +49,20 @@ ROC Eğrisi ve AUC: Model 0.9153 AUC skoru elde etmiştir.
 3. SMOTE Destekli SVC Modeli
 Sentetik örnekler üreten SMOTE yöntemiyle eğitilen model, arıza yakalama oranını (Recall) en üst seviyeye taşımıştır.
 
-Confusion Matrix ve Classification Report:
+*Confusion Matrix ve Classification Report*:
 
 ![Confusion Matrix ve Classification Report](SVCwithSMOTERESULTS.png)
 
-ROC Eğrisi ve AUC: Model 0.9274 AUC skoru elde etmiştir.
+*ROC Eğrisi ve AUC*: Model 0.9274 AUC skoru elde etmiştir.
 
 ![ROC Curve ve AUC Skoru](SVCwithSMOTEROCCURVE.png)
 
 💡 Sonuçlar, Deneyler ve Kritik Çıkarımlar (Key Takeaways)
 
 🎯 Sınıf 1 (Arıza / Azınlık Sınıfı) Üzerinden Metrik Okuryazarlığı:
-Recall: Sistemdeki tüm gerçek arızaların yüzde kaçını ıskalamadan yakalayabildiğimizi gösterir. (Örn: SMOTE ile 0.79, yani var olan arızaların %79'u başarıyla yakalandı).
+*Recall*: Sistemdeki tüm gerçek arızaların yüzde kaçını ıskalamadan yakalayabildiğimizi gösterir. (Örn: SMOTE ile 0.79, yani var olan arızaların %79'u başarıyla yakalandı).
 
-Precision: Modelin "Bu makine arızalı" diyerek verdiği alarmların yüzde kaçının gerçekten arızalı olduğunu gösterir. Düşük precision, False Positive (Yalancı Alarm) sayısının yüksek olduğu anlamına gelir.
+*Precision*: Modelin "Bu makine arızalı" diyerek verdiği alarmların yüzde kaçının gerçekten arızalı olduğunu gösterir. Düşük precision, False Positive (Yalancı Alarm) sayısının yüksek olduğu anlamına gelir.
 
 ⚖️ Hangi Stratejiyi Seçmeli? (Amaca Göre Mühendislik Kararı)
 Eğer amacın "Tek bir arızayı bile kaçırmayayım, gerekirse fazladan bakım yapayım" ise: SMOTE muazzam işe yarıyor. Çünkü azınlık sınıfını yakalama oranını (Recall) tavan yaptırıyor.
