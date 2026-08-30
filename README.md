@@ -26,9 +26,11 @@ SMOTE (Synthetic Minority Over-sampling Technique): Sentetik veriler üreterek a
 Standart parametrelerle kurulan temel model, çoğunluk sınıfının baskınlığı nedeniyle azınlık sınıfındaki gerçek arızaları yakalamakta zorlanmıştır.
 
 Confusion Matrix ve Classification Report:
+
 ![Confusion Matrix ve Classification Report](SVCRESULTS.png)
 
 ROC Eğrisi ve AUC: Model 0.9217 AUC skoruna ulaşmıştır.
+
 ![ROC Curve ve AUC Skoru](SVCROCCURVE.png)
 
 
@@ -36,9 +38,11 @@ ROC Eğrisi ve AUC: Model 0.9217 AUC skoruna ulaşmıştır.
 Sınıf ağırlıkları optimize edilerek yanlış alarmlar (False Positive) minimumda tutulmaya çalışılmış, bakım ekibinin iş yükü dengelenmiştir.
 
 Confusion Matrix ve Classification Report:
+
 ![Confusion Matrix ve Classification Report](SVCwithClassWeightResults.png)
 
 ROC Eğrisi ve AUC: Model 0.9153 AUC skoru elde etmiştir.
+
 ![ROC Curve ve AUC Skoru](SVCwithClassWeightROCCurve.png)
 
 
@@ -46,9 +50,11 @@ ROC Eğrisi ve AUC: Model 0.9153 AUC skoru elde etmiştir.
 Sentetik örnekler üreten SMOTE yöntemiyle eğitilen model, arıza yakalama oranını (Recall) en üst seviyeye taşımıştır.
 
 Confusion Matrix ve Classification Report:
+
 ![Confusion Matrix ve Classification Report](SVCwithSMOTERESULTS.png)
 
 ROC Eğrisi ve AUC: Model 0.9274 AUC skoru elde etmiştir.
+
 ![ROC Curve ve AUC Skoru](SVCwithSMOTEROCCURVE.png)
 
 💡 Sonuçlar, Deneyler ve Kritik Çıkarımlar (Key Takeaways)
