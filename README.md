@@ -60,6 +60,7 @@ Sentetik örnekler üreten SMOTE yöntemiyle eğitilen model, arıza yakalama or
 💡 Sonuçlar, Deneyler ve Kritik Çıkarımlar (Key Takeaways)
 
 🎯 Sınıf 1 (Arıza / Azınlık Sınıfı) Üzerinden Metrik Okuryazarlığı:
+
 *Recall*: Sistemdeki tüm gerçek arızaların yüzde kaçını ıskalamadan yakalayabildiğimizi gösterir. (Örn: SMOTE ile 0.79, yani var olan arızaların %79'u başarıyla yakalandı).
 
 *Precision*: Modelin "Bu makine arızalı" diyerek verdiği alarmların yüzde kaçının gerçekten arızalı olduğunu gösterir. Düşük precision, False Positive (Yalancı Alarm) sayısının yüksek olduğu anlamına gelir.
