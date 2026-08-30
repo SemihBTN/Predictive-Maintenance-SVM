@@ -29,6 +29,7 @@ ROC Eğrisi ve AUC: Model 0.9217 AUC skoruna ulaşmıştır.
 
 ![ROC Curve ve AUC Skoru](SVCROCCURVE.png)
 
+
 2. Sınıf Ağırlıklı SVC Modeli (Class Weight Optimization)
 Sınıf ağırlıkları optimize edilerek yanlış alarmlar (False Positive) minimumda tutulmaya çalışılmış, bakım ekibinin iş yükü dengelenmiştir.
 
@@ -39,6 +40,7 @@ Confusion Matrix ve Classification Report:
 ROC Eğrisi ve AUC: Model 0.9153 AUC skoru elde etmiştir.
 
 ![ROC Curve ve AUC Skoru](SVCwithClassWeightROCCurve.png)
+
 
 3. SMOTE Destekli SVC Modeli
 Sentetik örnekler üreten SMOTE yöntemiyle eğitilen model, arıza yakalama oranını (Recall) en üst seviyeye taşımıştır.
