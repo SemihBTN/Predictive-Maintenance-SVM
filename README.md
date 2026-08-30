@@ -72,6 +72,6 @@ Eğer amacın "Bakım ekibini boş yere yalancı alarmlarla koşturmayayım, mod
 
 📂 Proje Yapısı
 
-ai4i2020.csv: Analizde kullanılan ham veri seti.
+* `ai4i2020.csv`: Analizde kullanılan ham veri seti.
 
-README.md: Projenin detaylı teknik raporu ve analiz dokümanı.
+* `README`: Projenin genel özeti ve performans raporu.
