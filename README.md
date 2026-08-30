@@ -14,11 +14,11 @@ Bu depoda, endüstriyel üretim hatlarındaki kestirimci bakım (predictive main
 
 Kestirimci bakım veri setlerinde en büyük problem dengesiz veri (imbalanced data) problemidir. Sağlam makine sayısı çok fazlayken, arıza sayısı çok azdır. Modeli eğirirken tek bir stratejiye bağlı kalmak yerine şu üç farklı yaklaşım test edilmiştir:
 
-Standart Model (Baseline): Hiçbir müdahalede bulunmadan saf verilerle modelin ne tepki vereceğini görmek.
+*Standart Model (Baseline)*: Hiçbir müdahalede bulunmadan saf verilerle modelin ne tepki vereceğini görmek.
 
-Class Weight Optimization (Sınıf Ağırlıklandırması): Azınlık sınıfına (1 sınıfına) daha yüksek ceza/ağırlık vererek modelin dikkatini arızalara çekmek.
+*Class Weight Optimization (Sınıf Ağırlıklandırması)*: Azınlık sınıfına (1 sınıfına) daha yüksek ceza/ağırlık vererek modelin dikkatini arızalara çekmek.
 
-SMOTE (Synthetic Minority Over-sampling Technique): Sentetik veriler üreterek azınlık sınıfını çoğunluk sınıfına eşitlemek ve modelin arızaları "öğrenmesini" zorlamak.
+*SMOTE (Synthetic Minority Over-sampling Technique)*: Sentetik veriler üreterek azınlık sınıfını çoğunluk sınıfına eşitlemek ve modelin arızaları "öğrenmesini" zorlamak.
 
 📊 Model Performansları ve Kıyaslama Sonuçları
 
