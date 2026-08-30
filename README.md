@@ -1,4 +1,5 @@
 🤖 AI4I 2020 Predictive Maintenance: Model Optimization & Strategy Comparison
+
 Bu depoda, endüstriyel üretim hatlarındaki kestirimci bakım (predictive maintenance) senaryoları için Support Vector Classifier (SVC) modeli geliştirilmiş; veri setindeki şiddetli sınıf dengesizliğini (Machine failure = 1 oranının çok düşük olması) çözmek amacıyla farklı stratejiler (Standard, Class Weight ve SMOTE) kapsamlı bir şekilde test edilip karşılaştırılmıştır.
 
 🛠️ Kullanılan Teknolojiler
